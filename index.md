@@ -18,3 +18,4 @@ Profanity constructions offer a unique window into the compositionality of langu
 | تخم سگ | Tokhme sag | Dog's balls | Naughty | - |
 | سرت با کونت بازی میکنه | Saret ba koonet bazi mikone | Your head is playing with your ass | You don't have focus | - |
 | دودول طلا | Doodool Tala | Golden dick | well-behaved kid | [Brian Parsa's instagram reel](https://www.instagram.com/reel/CyRgJEPPO0c/?igsh=cHNoMGYyejA2djg5) |
+| مه موس | Me moos | (Mazani) My ass | The location of any lost item (use this to signal the speaker "why the hell should I know where your lost item is?) | - |
