@@ -10,6 +10,8 @@ Profanity constructions offer a unique window into the compositionality of langu
 - Cultural Encoding: These expressions reflect historical, social, and regional nuances that are often lost in translation.
 - Linguistic Productivity: New profanity constructions emerge dynamically, illustrating the creative nature of language use.
 
+## Table
+
 | Construction | Construction (transliterated) | Literal Meaning | Inferred Meanning | References |
 |----------|----------|----------|----------|----------|
 | به کیرم  | Be Kiram | I'll divert it to my dick | I don't care  | - |
