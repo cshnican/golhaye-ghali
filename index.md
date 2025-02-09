@@ -2,6 +2,6 @@
 
 | Construction | Construction (transliterated) | Literal Meaning | Inferred Meanning | References |
 |----------|----------|----------|----------|----------|
-| Data 1   | Data 2   | Data 3   | Data 3   | Data 3   |
-| Data 4   | Data 5   | Data 6   | Data 3   | Data 3   |
-| Data 7   | Data 8   | Data 9   | Data 3   | Data 3   |
+| به کیرم  | Be Kiram | I'll divert it to my dick | I don't care  | - |
+| به تخم چپم | Be tokhm chapam | I'll divert it to my left ball  | I don't care  | - |
+| تو کونم نمیره   | Too koonam nemire | I cannot fit it in my ass  | I can't believe it | -  |
