@@ -22,8 +22,8 @@ This dataset consists of 5 columns. The first column is the original profanity c
 
 | Construction | Construction (transliterated) | Literal Meaning | Inferred Meanning | References |
 |----------|----------|----------|----------|----------|
-| به کیرم  | [Be](https://en.wiktionary.org/wiki/%D8%A8%D9%87#Persian) Kiram | I'll divert it to my dick | I don't care  | - |
-| به تخم چپم | Be tokhm chapam | I'll divert it to my left ball  | I don't care  | - |
+| به کیرم  | [Be](https://en.wiktionary.org/wiki/%D8%A8%D9%87#Persian) [kiram](https://en.wiktionary.org/wiki/%DA%A9%DB%8C%D8%B1#Persian) | I'll divert it to my dick | I don't care  | - |
+| به تخم چپم | Be [tokhm](https://en.wiktionary.org/wiki/%D8%AA%D8%AE%D9%85#Persian) [chapam](https://en.wiktionary.org/wiki/%DA%86%D9%BE#Persian) | I'll divert it to my left ball  | I don't care  | - |
 | تو کونم نمیره   | Too koonam nemire | I cannot fit it in my ass  | I can't believe it | -  |
 | تخم سگ | Tokhme sag | Dog's balls | Naughty | - |
 | سرت با کونت بازی میکنه | Saret ba koonet bazi mikone | Your head is playing with your ass | You don't have focus | - |
