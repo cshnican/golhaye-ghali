@@ -1,14 +1,15 @@
 # Golhaye Ghali: a dataset for the most beautiful constructions in Farsi and Mazani
 
-## Background
+## What is this dataset for?
 This repository explores profanity constructions in Farsi and Mazani, focusing on idiomatic expressions rather than isolated swear words. While existing resources primarily list individual profanities, this project seeks to document multi-word constructions that convey offensive, humorous, or metaphorical meanings in everyday speech.
 
 ## Why This Matters?
-Profanity constructions offer a unique window into the compositionality of language—the way words combine to create meanings that go beyond their individual parts. Unlike single-word profanities, which can often be translated directly, idiomatic constructions rely on cultural context, figurative meaning, and syntactic flexibility. This dataset sheds light on:
+Language is believed to be largely compositional: the meaning of multi-word sequences can be mostly composed and decued from the meaning of each word. For example, the meaning of "a white tower" is a tower that is white, which is a composition of its element, "white" and "tower". Compositionality allows speakers to generate complex meaning from a relatively smaller set of basic units, which is good because speakers don't need to memorize the sentence for every possible meaning; instead, they just need to memorize the meaning of each individual word, along with the rules to compose them together.
 
-- Semantic Opacity: The meaning of a construction is often non-compositional, meaning it cannot be derived from the sum of its parts.
-- Cultural Encoding: These expressions reflect historical, social, and regional nuances that are often lost in translation.
-- Linguistic Productivity: New profanity constructions emerge dynamically, illustrating the creative nature of language use.
+However, not everything about language is compositional. A counterexample is *idioms* in English: the sentence "put yourself in other people's shoes" doesn't mean you are actually wearing other people's shoes, as its individual words combined together will suggest. Instead, this sentence means to think in someone else's perspective. Another counterexample is some syntactic structures in English: "I am *into* laiko" does not mean I am physically into laiko music, as, again, its individual words combined together will suggest. Instead, it means I like laiko music.
+
+Profanity constructions, which this dataset offers, is another example: words (usually vulgar) composed together mean something completely different from their individual parts. In English, the examples are "bullshit" vs. "batshit" vs. "horseshit" - they don't refer to the defecation of different animals. 
+
 
 ## Table
 
