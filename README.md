@@ -1,4 +1,4 @@
-# Golhaye Ghali: a dataset for the most beautiful constructions in Farsi and Mazani
+# Golhaye Ghali: a dataset for profanity constructions in Farsi and Mazani
 
 ## What is this dataset for?
 This repository explores profanity constructions in Farsi and Mazani, focusing on idiomatic expressions rather than isolated swear words. While existing resources primarily list individual profanities, this project seeks to document multi-word constructions that convey offensive, humorous, or metaphorical meanings in everyday speech.
