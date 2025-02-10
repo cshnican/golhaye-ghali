@@ -10,6 +10,7 @@ However, not everything about language is compositional. A counterexample is *id
 
 Profanity constructions, which this dataset offers, is another example: words (usually vulgar) composed together mean something completely different from their individual parts. In English, the examples are "bullshit" vs. "batshit" vs. "horseshit" - they don't refer to the defecation of different animals. 
 
+Why is this the case? How do these seemingly arbitraily meanings get assigned to these collection of words? In this dataset, we hope we can provide future researchers with data points to potentially draw inferences from. We choose Farsi and Mazani because they seem to be understudied languages with rich such constructions. Another theoretical value of this dataset is that it might offer a probe of how languages were spoken a long time ago, since these constructions were thought to have been formed a long time ago and have survived language changes due to their sociological values (cf. Progovac, 2024).
 
 ## Table
 
