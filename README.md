@@ -20,10 +20,10 @@ A third, practical contribution of this dataset is to provide literal and implie
 
 This dataset consists of 5 columns. The first column is the original profanity construction in Farsi or Mazani, written in the Persian script. The second column is the transliterated construction in Latin script for those who are unfamiliar with the Persian sript. The third column is the literal meaning of the construction, usually a word-by-word translation (annotation may be added later, depending on the curators' bandwidth). The forth column is the inferred meaning, which is different from the literal meaning and is how the construction is actually used. The last column contains references.
 
-| Construction | Construction (transliterated) | Literal Meaning | Inferred Meanning | References |
+| Construction | Construction (transliterated) | Literal Meaning | Inferred Meaning | References |
 |----------|----------|----------|----------|----------|
-| به کیرم  | [Be](https://en.wiktionary.org/wiki/%D8%A8%D9%87#Persian) [kiram](https://en.wiktionary.org/wiki/%DA%A9%DB%8C%D8%B1#Persian) | I'll divert it to my dick | I don't care  | - |
-| به تخم چپم | Be [tokhm](https://en.wiktionary.org/wiki/%D8%AA%D8%AE%D9%85#Persian) [chapam](https://en.wiktionary.org/wiki/%DA%86%D9%BE#Persian) | I'll divert it to my left ball  | I don't care  | - |
+| به کیرم  | [Be](https://en.wiktionary.org/wiki/%D8%A8%D9%87#Persian) [kiram](https://en.wiktionary.org/wiki/%DA%A9%DB%8C%D8%B1#Persian) | To my dick | I don't care  | - |
+| به تخم چپم | Be [tokhm](https://en.wiktionary.org/wiki/%D8%AA%D8%AE%D9%85#Persian) [chapam](https://en.wiktionary.org/wiki/%DA%86%D9%BE#Persian) | To my left ball | I don't care  | - |
 | تو کونم نمیره   | Too koonam nemire | I cannot fit it in my ass  | I can't believe it | -  |
 | تخم سگ | Tokhme sag | Dog's balls | Naughty | - |
 | سرت با کونت بازی میکنه | Saret ba koonet bazi mikone | Your head is playing with your ass | You don't have focus | - |
