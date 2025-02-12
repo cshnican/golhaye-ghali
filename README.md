@@ -24,7 +24,7 @@ This dataset consists of 5 columns. The first column is the original profanity c
 |----------|----------|----------|----------|----------|
 | به کیرم  | [Be](https://en.wiktionary.org/wiki/%D8%A8%D9%87#Persian) [kiram](https://en.wiktionary.org/wiki/%DA%A9%DB%8C%D8%B1#Persian) | To my dick | I don't care  | - |
 | به تخم چپم | Be [tokhm](https://en.wiktionary.org/wiki/%D8%AA%D8%AE%D9%85#Persian) [chapam](https://en.wiktionary.org/wiki/%DA%86%D9%BE#Persian) | To my left ball | I don't care  | - |
-| تو کونم نمیره   | Too koonam nemire | I cannot fit it in my ass  | I can't believe it | -  |
+| تو کونم نمیره   | [Too](https://en.wiktionary.org/wiki/%D8%AA%D9%88#Etymology_4) [koonam](https://en.wiktionary.org/wiki/%DA%A9%D9%88%D9%86#Etymology_1) [ne](https://en.wiktionary.org/wiki/%D9%86%D9%87#Etymology_1_4) [mire](https://en.wiktionary.org/wiki/%D8%B1%D9%81%D8%AA%D9%86) | It does not go to my ass.  | I can't believe it | -  |
 | تخم سگ | Tokhme sag | Dog's balls | Naughty | - |
 | سرت با کونت بازی میکنه | Saret ba koonet bazi mikone | Your head is playing with your ass | You don't have focus | - |
 | دودول طلا | Doodool Tala | Golden dick | well-behaved kid | [Brian Parsa's instagram reel](https://www.instagram.com/reel/CyRgJEPPO0c/?igsh=cHNoMGYyejA2djg5) |
