@@ -1,7 +1,7 @@
 # Golhaye Ghali: a dataset for profanity constructions in Farsi and Mazani
 
 ## What is this dataset for?
-This repository explores profanity constructions in Farsi and Mazani, focusing on idiomatic expressions rather than isolated swear words. While existing resources primarily list individual profanities, this project seeks to document multi-word constructions that convey offensive, humorous, or metaphorical meanings in everyday speech.
+This repository explores profanity constructions in Farsi and Mazani (Mazanderani), focusing on idiomatic expressions rather than isolated swear words. While existing resources primarily list individual profanities, this project seeks to document multi-word constructions that convey offensive, humorous, or metaphorical meanings in everyday speech.
 
 ## Why does it matter?
 Language is believed to be largely compositional: the meaning of multi-word sequences can be mostly composed and deduced from the meaning of each word. For example, the meaning of "a white tower" is a tower that is white, which is a composition of its element, "white" and "tower". Compositionality allows speakers to generate complex meaning from a relatively smaller set of basic units, which is good, because speakers just need to memorize the meaning of each individual word, along with the rules to compose them together. On the other hand, if language is largely not-compositional, then speakers need to memorize 3 unrelated utterances for "book", "my book", and "Can I have my book?", which will be a nightmare for people using the language.
@@ -16,9 +16,17 @@ Another theoretical value of this dataset is that it might offer a probe of how 
 
 A third, practical contribution of this dataset is to provide literal and implied translation of Farsi and Mazani expressions in order to train better machine translators.
 
+## What are Farsi and Mazani?
+
+Both Farsi and Mazani are Indo-Iranian languages in the Indo-European (IE) language family. The IE langauge family is currently the language family with the most number of speakers in the world ([3.4 billion worldwide](https://en.wikipedia.org/wiki/Indo-European_languages)), consisting of a diverse set of languages such as English, German, Swedish (Germanic), Ukranian, Russian, Bulgarian (Balto-Slavic), Spanish, French, Italian (Italic), Irish (Celtic), Hindi, Urdu, Farsi (Indo-Iranian), Greek (Hellenic), Armenian (Armenian), and Albanian (Albanian). The original form of the language (called Proto-Indo-European) is believed to be spoken by people living in Anatolia and the Steppe (Heggarty et al., 2023) around 8000 years ago.
+
+Indo-Iranian languages are estimated to branch out from the Indo-European family tree around 5500 years ago (Gray & Atkinson, 2003), after Hittite (Anatolian), Tocharian, Armenian, Greek, and Albanian. Indo-Iranian languages than separated from Indo-Aryan languages around 4600 years ago (Gray & Atkinson, 2003). There are three main stages for Indo-Iranian languages (Fortson, 2009): Old Iranian (e.g. Old Persian, Avestan), Middle Iranian (e.g. Pahlavi), and Modern Iranian (e.g. Farsi, Tajik).
+
+Farsi is a language with multiple varieties: the most well known variety is spoken in modern day Iran. Another variety, called Dari, is one of the official languages in Afghanistan. A third variety, Tajik, is the official language in Tajikstan. All these languages belong to the Southwestern Iranian branch of the Iranian language family (Hammarström and Forkel, 2022). Mazani (Mazanderani), on the other hand, belongs to the Norwestern Iranian branch (Hammarström and Forkel, 2022) and is mainly spoken in the northern part of Iran near the Caspian Sea in the Mazandaran Province.
+
 ## Table
 
-This dataset consists of 5 columns. The first column is the original profanity construction in Farsi or Mazani, written in the Persian script. The second column is the transliterated construction in Latin script for those who are unfamiliar with the Persian sript. The third column is the literal meaning of the construction, usually a word-by-word translation (annotation may be added later, depending on the curators' bandwidth). The forth column is the inferred meaning, which is different from the literal meaning and is how the construction is actually used. The last column contains references.
+This dataset consists of 5 columns. The first column is the original profanity construction in Farsi or Mazani, written in the Persian script. The second column is the transliterated construction in Latin script for those who are unfamiliar with the Persian sript, with links to the corresponding Wiktionary entry. The third column is the literal meaning of the construction, usually a word-by-word translation (annotation may be added later, depending on the curators' bandwidth). The forth column is the inferred meaning, which is different from the literal meaning and is how the construction is actually used. The last column contains references.
 
 | Construction | Construction (transliterated) | Literal Meaning | Inferred Meaning | References |
 |----------|----------|----------|----------|----------|
