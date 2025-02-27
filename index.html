@@ -1,98 +1,118 @@
-<h1
-id="golhaye-ghali-a-dataset-for-the-most-beautiful-constructions-in-farsi-and-mazani">Golhaye
-Ghali: a dataset for the most beautiful constructions in Farsi and
-Mazani</h1>
-<h2 id="background">Background</h2>
-<p>This repository explores profanity constructions in Farsi and Mazani,
-focusing on idiomatic expressions rather than isolated swear words.
-While existing resources primarily list individual profanities, this
-project seeks to document multi-word constructions that convey
-offensive, humorous, or metaphorical meanings in everyday speech.</p>
-<h2 id="why-this-matters">Why This Matters?</h2>
-<p>Profanity constructions offer a unique window into the
-compositionality of language—the way words combine to create meanings
-that go beyond their individual parts. Unlike single-word profanities,
-which can often be translated directly, idiomatic constructions rely on
-cultural context, figurative meaning, and syntactic flexibility. This
-dataset sheds light on:</p>
-<ul>
-<li>Semantic Opacity: The meaning of a construction is often
-non-compositional, meaning it cannot be derived from the sum of its
-parts.</li>
-<li>Cultural Encoding: These expressions reflect historical, social, and
-regional nuances that are often lost in translation.</li>
-<li>Linguistic Productivity: New profanity constructions emerge
-dynamically, illustrating the creative nature of language use.</li>
-</ul>
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr>
-<th>Construction</th>
-<th>Construction (transliterated)</th>
-<th>Literal Meaning</th>
-<th>Inferred Meanning</th>
-<th>References</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>به کیرم</td>
-<td>Be Kiram</td>
-<td>I’ll divert it to my dick</td>
-<td>I don’t care</td>
-<td>-</td>
-</tr>
-<tr>
-<td>به تخم چپم</td>
-<td>Be tokhm chapam</td>
-<td>I’ll divert it to my left ball</td>
-<td>I don’t care</td>
-<td>-</td>
-</tr>
-<tr>
-<td>تو کونم نمیره</td>
-<td>Too koonam nemire</td>
-<td>I cannot fit it in my ass</td>
-<td>I can’t believe it</td>
-<td>-</td>
-</tr>
-<tr>
-<td>تخم سگ</td>
-<td>Tokhme sag</td>
-<td>Dog’s balls</td>
-<td>Naughty</td>
-<td>-</td>
-</tr>
-<tr>
-<td>سرت با کونت بازی میکنه</td>
-<td>Saret ba koonet bazi mikone</td>
-<td>Your head is playing with your ass</td>
-<td>You don’t have focus</td>
-<td>-</td>
-</tr>
-<tr>
-<td>دودول طلا</td>
-<td>Doodool Tala</td>
-<td>Golden dick</td>
-<td>well-behaved kid</td>
-<td><a
-href="https://www.instagram.com/reel/CyRgJEPPO0c/?igsh=cHNoMGYyejA2djg5">Brian
-Parsa’s instagram reel</a></td>
-</tr>
-<tr>
-<td>مه موس</td>
-<td>Me moos</td>
-<td>(Mazani) My ass</td>
-<td>The location of any lost item (use this to signal the speaker “why
-the hell should I know where your lost item is?)</td>
-<td>-</td>
-</tr>
-</tbody>
-</table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golhaye Ghali: A Dataset for Profanity Constructions in Farsi and Mazani</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f8fa;
+            color: #24292e;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #0366d6;
+        }
+        code {
+            background-color: #eaecef;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #d1d5da;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f6f8fa;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Golhaye Ghali: A Dataset for Profanity Constructions in Farsi and Mazani</h1>
+    
+    <h2>What is this dataset for?</h2>
+    <p>This repository explores profanity constructions in Farsi and Mazani (Mazanderani), focusing on idiomatic expressions rather than isolated swear words. While existing resources primarily list individual profanities, this project seeks to document multi-word constructions that convey offensive, humorous, or metaphorical meanings in everyday speech.</p>
+    
+    <h2>Why does it matter?</h2>
+    <p>Language is believed to be largely compositional: the meaning of multi-word sequences can be mostly composed and deduced from the meaning of each word. For example, the meaning of "a white tower" is a tower that is white, which is a composition of its element, "white" and "tower". Compositionality allows speakers to generate complex meaning from a relatively smaller set of basic units, which is good, because speakers just need to memorize the meaning of each individual word, along with the rules to compose them together. On the other hand, if language is largely not-compositional, then speakers need to memorize 3 unrelated utterances for "book", "my book", and "Can I have my book?", which will be a nightmare for people using the language.
+
+        However, not everything about language is compositional. A counterexample is *idioms* in English: the sentence "put yourself in other people's shoes" doesn't mean you are actually wearing other people's shoes, as its individual words combined together will suggest. Instead, this sentence means to think in someone else's perspective. Another counterexample is some syntactic structures in English: "I am *into* laiko" does not mean I am physically into laiko music, as, again, its individual words combined together will suggest. Instead, it means I *like* laiko music.
+        
+        Profanity constructions, which this dataset offers, is another example: words (usually vulgar) composed together mean something completely different from their individual parts. In English, the examples are "bullshit" vs. "batshit" vs. "horseshit" - they don't refer to the defecation of different animals. Rather, they refer to "nonsense", "something crazy", and "nonsense on a even deeper level".
+        
+        Why is this the case? When is language not-compositional? How do these seemingly arbitraily meanings get assigned to these collection of words? To address these questions, in this dataset, we hope we can provide future researchers with data points to potentially draw inferences from. We choose Farsi and Mazani because they seem (to the judgement of curators) to be understudied languages with rich such constructions. 
+        
+        Another theoretical value of this dataset is that it might offer a probe of how languages were spoken a long time ago, since these constructions were thought to have been formed a long time ago and have survived language changes due to their sociological values (cf. Progovac, 2024). 
+        
+        A third, practical contribution of this dataset is to provide literal and implied translation of Farsi and Mazani expressions in order to train better machine translators.</p>
+    
+    <h2>What are Farsi and Mazani?</h2>
+    <p>Both Farsi and Mazani are Indo-Iranian languages in the Indo-European (IE) language family. The IE langauge family is currently the language family with the most number of speakers in the world <a href="https://en.wikipedia.org/wiki/Indo-European_languages">3.4 billion worldwide</a>, consisting of a diverse set of languages such as English, German, Swedish (Germanic), Ukranian, Russian, Bulgarian (Balto-Slavic), Spanish, French, Italian (Italic), Irish (Celtic), Hindi, Urdu, Farsi (Indo-Iranian), Greek (Hellenic), Armenian (Armenian), and Albanian (Albanian). The original form of the language (called Proto-Indo-European) is believed to be spoken by people living in Anatolia and the Steppe (Heggarty et al., 2023) around 8000 years ago.
+
+        Indo-Iranian languages are estimated to branch out from the Indo-European family tree around 5500 years ago (Gray & Atkinson, 2003), after Hittite (Anatolian), Tocharian, Armenian, Greek, and Albanian. Indo-Iranian languages than separated from Indo-Aryan languages around 4600 years ago (Gray & Atkinson, 2003). There are three main stages for Indo-Iranian languages (Fortson, 2009): Old Iranian (e.g. Old Persian, Avestan), Middle Iranian (e.g. Pahlavi), and Modern Iranian (e.g. Farsi, Tajik).
+        
+        Farsi is a language with multiple varieties: the most well known variety is spoken in modern day Iran. Another variety, called Dari, is one of the official languages in Afghanistan. A third variety, Tajik, is the official language in Tajikstan. All these languages belong to the Southwestern Iranian branch of the Iranian language family (Hammarström and Forkel, 2022). Mazani (Mazanderani), on the other hand, belongs to the Norwestern Iranian branch (Hammarström and Forkel, 2022) and is mainly spoken in the northern part of Iran near the Caspian Sea in the Mazandaran Province.</p>
+    
+    <h2>Table</h2>
+    <table>
+        <tr>
+            <th>Construction</th>
+            <th>Construction (transliterated)</th>
+            <th>Literal Meaning</th>
+            <th>Inferred Meaning</th>
+            <th>References</th>
+        </tr>
+        <tr>
+            <td>به کیرم</td>
+            <td><a href="https://en.wiktionary.org/wiki/%D8%A8%D9%87#Persian">Be</a> <a href="https://en.wiktionary.org/wiki/%DA%A9%DB%8C%D8%B1#Persian">kiram</a></td>
+            <td>To my dick</td>
+            <td>I don't care</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>به تخم چپم</td>
+            <td>Be <a href="https://en.wiktionary.org/wiki/%D8%AA%D8%AE%D9%85#Persian">tokhm</a> <a href="https://en.wiktionary.org/wiki/%DA%86%D9%BE#Persian">chapam</a></td>
+            <td>To my left ball</td>
+            <td>I don't care</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>تو کونم نمیره</td>
+            <td><a href="https://en.wiktionary.org/wiki/%D8%AA%D9%88#Etymology_4">Too</a> <a href="https://en.wiktionary.org/wiki/%DA%A9%D9%88%D9%86#Etymology_1">koonam</a> <a href="https://en.wiktionary.org/wiki/%D9%86%D9%87#Etymology_1_4">ne</a> <a href="https://en.wiktionary.org/wiki/%D8%B1%D9%81%D8%AA%D9%86">mire</a></td>
+            <td>It does not go to my ass.</td>
+            <td>I can't believe it</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>دودول طلا</td>
+            <td><a href="https://fa.wiktionary.org/wiki/%D8%AF%D9%88%D8%AF%D9%88%D9%84">Doodool</a> <a href="https://en.wiktionary.org/wiki/%D8%B7%D9%84%D8%A7#Persian">Tala</a></td>
+            <td>Golden dick</td>
+            <td>Well-behaved kid</td>
+            <td><a href="https://www.instagram.com/reel/CyRgJEPPO0c/?igsh=cHNoMGYyejA2djg5">Brian Parsa's Instagram reel</a></td>
+        </tr>
+        <tr>
+            <td>خایه مالو سگ بگاد</td>
+            <td><a href="https://en.wiktionary.org/wiki/%D8%AE%D8%A7%DB%8C%D9%87#Persian">Khayeh</a> <a href="https://en.wiktionary.org/wiki/%D9%85%D8%A7%D9%84#Verb_3">mal</a> <a href="https://en.wiktionary.org/wiki/%D8%B1%D8%A7#Persian">o</a> <a href="https://en.wiktionary.org/wiki/%D8%B3%DA%AF#Persian">sag</a> <a href="https://en.wiktionary.org/wiki/%DA%AF%D8%A7%D8%A6%DB%8C%D8%AF%D9%86#Persian">begad</a></td>
+            <td>Ball rubber will be fucked by a dog</td>
+            <td>Use this phrase to a person who's being a kiss-ass</td>
+            <td><a href="https://youtube.com/shorts/qLD0vyYWO0U?si=sHj6fWqgkUp4Lch3">The tune</a>, <a href="https://www.youtube.com/shorts/_5iK6sarTyw">Source of the tune</a></td>
+        </tr>
+    </table>
+</body>
+</html>
