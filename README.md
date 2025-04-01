@@ -44,4 +44,4 @@ This dataset consists of 5 columns. The first column is the original profanity c
 |کس موش چال کردن|Kos moosh chaal kardan.|‌Burrying mouse pussy|Engaging in a futile activity.|-|
 |خنجر به کس فیل زدن|Khanjar be kos e feel zadan.|Daggering an elephant's pussy.|Engaging in a futile and dangerous activity.|-|
 |گنده گوزی کردن|‌Gonde goozi kardan|Farting big farts.|excessively exaggerating|-|
-||||||
+|مه موس ته دوربینه| Me moos te durbin e | (Mazani) My ass is your telescope | You're paying attention to me too much |-|
